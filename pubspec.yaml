@@ -1,0 +1,46 @@
+name: Flexpay
+description: Flexpay
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.1.0
+
+dev_dependencies:
+  flutter_native_splash: ^2.3.10
+  flutter_launcher_icons: ^0.13.1
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+flutter_native_splash:
+  color: "#1d81cd"           
+  image: assets/logo.png    
+  android: true
+  ios: true
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon.png"
+  min_sdk_android: 21
+
+assets:
+  - assets/logo.png
+  - assets/mtn.png 
+  - assets/glo.png 
+  - assets/airtel.png 
+  - assets/t2.png 
+  - assets/screen1_image.png
+  - assets/screen2_image.png
+  - assets/screen3_image.png
+  - assets/tifeh.jpg
+  - assets/icon.png
